@@ -1,0 +1,118 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(255, 239, 219);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    .header {
+        font-family: 'Satisfy', cursive;
+        font-size: 42px;
+        color: plum;
+    }
+
+    textarea {
+        width: 850px;
+        height: 300px;
+        margin: 20px;
+    }
+
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+        width: 920px;
+        list-style-type: none;
+    }
+
+    .button {
+        width: 50px;
+        height: 50px;
+        border-radius: 10px;
+        background-color: rgb(46, 46, 46);
+        color: white;
+        text-align: center;
+        padding-top: 15px;
+        box-sizing: border-box;
+        margin: 5px;
+        cursor: pointer;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        letter-spacing: 1px;
+
+        &:hover {
+            border: 3px solid rgb(214, 0, 214);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+        }
+
+        &:active {
+            background-color: plum;
+            color: black;
+        }
+    }
+
+
+
+    .tab,
+    .backslash,
+    .altleft,
+    .altright {
+        width: 90px;
+        background-color: rgb(46, 46, 46);
+
+    }
+
+    .backspace,
+    .shiftleft {
+        width: 130px;
+        background-color: rgb(46, 46, 46);
+    }
+
+    .capslock {
+        width: 120px;
+        background-color: rgb(46, 46, 46);
+    }
+
+    .enter {
+        width: 120px;
+        background-color: rgb(46, 46, 46);
+    }
+
+    .shiftright {
+        width: 110px;
+        background-color: rgb(46, 46, 46);
+    }
+
+    .space {
+        width: 350px;
+        background-color: rgb(46, 46, 46);
+    }
+
+    .controlleft,
+    .controlright,
+    .metaleft,
+    .arrowup,
+    .arrowdown,
+    .arrowleft,
+    .arrowright {
+        background-color: rgb(46, 46, 46);
+    }
+
+    .click {
+        background-color: plum;
+        color: black;
+        font-weight: 600;
+        transition: background-color 0.4s;
+    }
+
+    p {
+        font-family: Arial, Helvetica, sans-serif;
+        color: gray;
+        font-size: 20px;
+        margin-top: 50px;
+    }
+}
